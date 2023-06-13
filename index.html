@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> -->
+    
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="https://kit.fontawesome.com/f6656a3e43.js" crossorigin="anonymous"></script>
+
+    <script src="anime.min.js"></script>
+
+    <link rel="stylesheet" href="/aos@latest.css">
+
+
+    <style>
+        
+        .material-symbols-outlined 
+        {
+            font-size: 35px;
+            color: greenyellow;
+            
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
+        
+    </style>
+    
+
+
+</head>
+<body>
+
+
+        <nav class="navbar fixed-top navbar-expand-sm">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">SeunLawal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills-section">Skills</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio-container">Portfolio</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#mycontact">Contact Me</a>
+                  </li>
+
+
+                </ul>
+    
+
+              </div>
+            </div>
+        </nav>
+
+
+        
+        <div class="overall-container">
+
+            <marquee behavior="scroll" direction="right" class="marquee">Welcome to my website. My name is Oluwaseun. It's nice having you here.</marquee>
+
+            <img src="/20230316_094855_0000.png" class="hero-image" data-aos="fade-up-right" alt="">
+
+            <div class="wrapper">
+                <div class="cols cols0">
+                    <span class="topline">Hello</span>
+                    <h1> I'm <span class="multiText"></span> </h1>
+                </div>
+          </div>
+
+          <div class="cv-container">
+            <button class="cvbtn">Download my CV</button>
+          </div>
+
+            <h4 id="aboutme">About Me</h4>
+            <div class="line-under"></div>
+
+
+
+            <section class="myDetails">
+
+                <img src="/Photo_1679040258322.jpg" alt="" data-aos="fade-right" class="mypix">
+                
+                <div class="aboutmetext">
+                    <article class="article">
+                        <p class="description" data-aos="fade-up-right">
+                            My name is Oluwaseun Lawal and I am an <b>entry-level frontend developer</b> with less than a year experience. 
+                            I developed this website with my knowledge of HTML, CSS, Bootstrap, and JavaScript. While still trying to be grounded 
+                            in JavaScript, I've taken up ReactJS. Also, I am working on some other web projects which I plan continuing and finishing
+                            with ReactJS. I will be adding these web projects to my portfolio as soon as I'm done with them. 
+                        </p>
+                        <p class="description" data-aos="fade-up-right">
+                            I am also a <b>self-motivated technical writer</b> with one year experience - though I initially started out as a technical
+                            content writer. I have written and can write technical reports, technical documentation, maintenance manuals, and user guides. 
+                            I have published two of my technical articles on dev.to (a large online community of web developers and software developers).
+                        </p>
+                        <p class="description" data-aos="fade-up-right">
+                            Last but not the least, I am a <b>service-focused content writer</b> with 3+ years of experience, 
+                            who specialises in writing web contents and blog posts in multi-niches. The niches I have written 
+                            and can write in are technology, lifestyle, DIY, health, and entertainment. Some of my works are available in my portfolio.
+                        </p>
+                    </article>
+                </div>
+                
+            </section>
+
+
+            <div id="skills-section">
+                <h2 class="skills-heading">Coding Skills</h2>
+                <div class="line-under"></div>
+                        
+                <div class="skills-container">
+                    <div class="skill-card" data-aos="zoom-out-up" data-aos-id="sk">
+                        <img src="/HTML img.jpg" class="skill-img" alt="">
+                        <div class="skillLevel">
+                            
+                            <div class="circular-progress" id="skill1">
+                            <span class="progress-value"></span>
+                            </div>
+                                
+                        </div>
+                        <h1 class="skill-name">HTML</h1>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-out-up">
+                        <img src="/CSS img.jpeg" class="skill-img" alt="">
+                        <div class="skillLevel">
+                            <div class="circular-progress" id="skill2">
+                                <span class="progress-value"></span>
+                            </div>
+                        </div>
+                        <h1 class="skill-name">CSS</h1>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-out-up">
+                        <img src="/Bootstrap 5.jpeg" class="skill-img" alt="">
+                        <div class="skillLevel">
+                            <div class="circular-progress" id="skill3">
+                                <span class="progress-value"></span>
+                            </div>
+                        </div>
+                        <h1 class="skill-name">Bootstrap</h1>
+                    </div>
+                    <div class="skill-card" data-aos="zoom-out-up">
+                        <img src="/JS img.jpeg" class="skill-img" alt="">
+                        <div class="skillLevel">
+                            <div class="circular-progress" id="skill4">
+                                <span class="progress-value"></span>
+                            </div>
+                        </div>
+                        <h1 class="skill-name">JavaScript</h1>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-out-up">
+                        <img src="/React logo.png" class="skill-img" alt="">
+                        <div class="skillLevel">
+                            <div class="circular-progress" id="skill5">
+                                <span class="progress-value"></span>
+                            </div>
+                        </div>
+                        <h1 class="skill-name">React</h1>
+                    </div>
+
+                    <div class="skill-card" data-aos="zoom-out-up">
+                        <img src="/Python coding.jpeg" class="skill-img" alt="">
+                        <div class="skillLevel">
+                            <div class="circular-progress" id="skill6">
+                                <span class="progress-value"></span>
+                            </div>
+                        </div>
+                        <h1 class="skill-name">Python</h1>
+                    </div>
+                
+                </div>
+            </div>
+
+
+            <div class="skills-section2">
+    
+                <h2 class="skills_heading">Writing Skills</h2>
+                <div class="line-under"></div>
+                
+                <div class="skills_container">
+                    <div class="skillcard" data-aos="zoom-out-up">
+                        <h1 class="skill_name">Meticulous attention to detail</h1>
+                        <span class="material-symbols-outlined">
+                        check_circle
+                        </span> 
+                    </div>
+                    <div class="skillcard" data-aos="zoom-out-up">
+                        <h1 class="skill_name">Adept at research using multiple sources</h1>
+                        <span class="material-symbols-outlined">
+                            check_circle
+                        </span>
+                    </div>
+                    <div class="skillcard" data-aos="zoom-out-up">
+                        <h1 class="skill_name">Excellent written and oral communication</h1>
+                        <span class="material-symbols-outlined">
+                            check_circle
+                        </span>
+                    </div>
+                    <div class="skillcard" data-aos="zoom-out-up">
+                        <h1 class="skill_name">Adaptability and creativity</h1>
+                        <span class="material-symbols-outlined">
+                            check_circle
+                        </span>
+                    </div>
+                    <div class="skillcard" data-aos="zoom-out-up">
+                        <h1 class="skill_name">Time management skills</h1>
+                        <span class="material-symbols-outlined">
+                            check_circle
+                        </span>
+                    </div>
+                    <div class="skillcard" data-aos="zoom-out-up">
+                        <h1 class="skill_name">Experience using Content management system (CMS)</h1>
+                        <span class="material-symbols-outlined">
+                            check_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="services">
+                <h4 class="service-heading">Services</h4>
+                <div class="line-under"></div>
+                
+                <div class="service-container">
+                    <div class="service1" data-aos="zoom-in-up">
+                        <img src="/Web development pic.jpg" class="serviceimg" alt="">
+                
+                        <div class="servicehdg">
+                            <h3>Web Development</h3>
+                
+                            <ul class="ulitem1">
+                                <li>Web Development</li>
+                                <li>Web Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                    <div class="service2" data-aos="zoom-in-up">
+                
+                        <img src="/Technical writing pic.jpg" class="serviceimg" alt="">
+                
+                        <div class="servicehdg">
+                            <h3>Technical Writing</h3>
+                
+                            <ul class="ulitem1">
+                                <li>Technical Report Writing</li>
+                                <li>Technical Documentation</li>
+                                <li>Maintenance Manual</li>
+                                <li>Reference Guide</li>
+                            </ul>
+                        </div>
+                
+                    </div>
+                
+                
+                    <div class="service3" data-aos="zoom-in-up">
+                
+                        <img src="/successful-computer-gadget-digital-close.jpg" class="serviceimg" alt="">
+                
+                        <div class="servicehdg">
+                            <h3>Content Writing</h3>
+                
+                            <ul class="ulitem1">
+                                <li>Web Content Writing</li>
+                                <li>Blog Writing</li>
+                                <li>SEO</li>
+                            </ul>
+                        </div>
+                
+                    </div>
+                
+                
+                    <div class="service4" data-aos="zoom-in-up">
+                
+                        <img src="/Research & writing.jpeg" class="serviceimg" alt="">
+                
+                        <div class="servicehdg">
+                            <h3>Others</h3>
+                
+                            <ul class="ulitem1">
+                                <li>Research Writing</li>
+                                <li>Editing & Proofreading</li>
+                            </ul>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            
+
+            <div id="portfolio-container">
+                <h4 class="portfolio-heading">Portfolio</h4>
+                <div class="line-under"></div>
+                
+                <h3 class="portfolio-subheading">Web Development</h3>
+                <div class="line-under-eachportfolio"></div>
+                <div class="webdev-portfolio" data-aos="flip-left">
+                    <div class="webdevproj1">
+                        <h3 class="adding-webprojects">Adding projects soon</h3>
+                    </div>
+                </div>
+
+
+                <h3 class="portfolio-subheading">Technical Writing</h3>
+                <div class="line-under-eachportfolio"></div>
+                <div class="techwriting-portfolio" data-aos="flip-left">
+                    <div class="techwriting1" data-aos="flip-up">
+                        <h4 class="headingstyling">A Technical Report on the Specialties in Computer Engineering</h4>
+                        <h5 class="text_styling"><b>Abstract:</b></h5>
+                        <p class="textstyling">
+                            Computer engineering is the outcome of the merger between two very distinct fields
+                             of study-electrical/electronic engineering and computer science-and not all about...
+                        </p>
+                        <a href="https://bit.ly/42DS6jh" class="read-more-styling">Read more</a>
+                    </div>
+                    <div class="techwriting1" data-aos="flip-down">
+                        <h4 class="headingstyling">How to Create Tri-category To-do Lists Using JavaScript</h4>
+                        <h5 class="text_styling"><b>Introduction</b></h5>
+                        <p class="textstyling">
+                            ...In this article, we are going to create tri-category to-do lists with JavaScript, 
+                            whose user interface will be designed using HTML and CSS. These tri-category to-do lists
+                             are...
+                        </p>
+                        <a href="https://dev.to/seuncodesnwrite/how-to-create-tri-category-to-do-lists-using-javascript-3855" 
+                        class="read-more-styling">Read more</a>
+                    </div>
+                    <div class="techwriting1" data-aos="flip-up">
+                        <h4 class="headingstyling">How to Add User Inputs from a Form to a Card Using JavaScript</h4>
+                        <h5 class="text_styling"><b>Introduction</b></h5>
+                        <p class="textstyling">
+                            Forms can be created for different purposes on a website or blog. For instance, 
+                            a form can be created to enable a user to subscribe to an online service or to
+                             submit a complaint on a website. Also,...
+                        </p>
+                        <a href="https://dev.to/seuncodesnwrite/how-to-add-user-inputs-from-a-form-to-a-card-using-javascript-13ph" 
+                        class="read-more-styling">Read more</a>
+                    </div>
+                    <!-- <div class="techwriting1" data-aos="flip-down"></div> -->
+                </div>
+
+
+                <h3 class="portfolio-subheading">Content Writing</h3>
+                <div class="line-under-eachportfolio"></div>
+                <div class="contentwriting-portfolio">
+                    <div class="content-writing1" data-aos="flip-down">
+                        <h4 class="headingstyling">Dodge Charger V6 Performance Upgrades</h4>
+                        <p class="textstyling">
+                            The Dodge Charger V6 is a popular American mid-size sedan that offers a perfect balance between 
+                            performance, style, and comfort. Since its inception in the 1960s, the Dodge Charger...
+                        </p>
+                        <a href="https://bit.ly/3oR6rLa" class="readmorestyling">Read more</a>
+                        <!-- <button onclick="myFunction()" id="myBtn"> Read more </button> -->
+                        <!-- <a href=""  onclick="myFunction()" id="myBtn">Read more</a> -->
+                    </div>
+                    <div class="content-writing1" data-aos="flip-up">
+                        <h4 class="headingstyling">Amana Dishwasher Not Working: How to Fix</h4>
+                        <p class="textstyling">
+                            It can be frustrating when you have dishes to clean but your Amana dishwasher just refuse to 
+                            turn on or work. There are quite a number of causes responsible for the inability of the appliance...
+                        </p>
+                        <a href="https://bit.ly/3J24IJV" class="readmorestyling">Read more</a>
+                    </div>
+                    <div class="content-writing1" data-aos="flip-down">
+                        <h4 class="headingstyling">Lagos and Abuja: Which is More Developed?</h4>
+                        <p class="textstyling">
+                            Lagos and Abuja are two cities in Nigeria that need no introduction. Both cities are really 
+                            popular and very significant in their own respective right. For Lagos, it has once been...
+                        </p>
+                        <a href="https://bit.ly/3WUMlwb" class="readmorestyling">Read more</a>
+                    </div>
+                    <div class="content-writing1" data-aos="flip-up">
+                        <h4 class="headingstyling">Snapchat: A Guide to Using it for Beginners</h4>
+                        <p class="textstyling">
+                            Snapchat is one of the most popular social media platforms which let users send image and video
+                            messages that will disappear after a certain duration. This image and video sharing...
+                        </p>
+                        <a href="https://bit.ly/45QyDib" class="readmorestyling">Read more</a>
+                    </div>
+
+                    <div class="content-writing1" data-aos="flip-up">
+                        <h4 class="headingstyling">How to Apply for Dubai Visa in Nigeria</h4>
+                        <p class="textstyling">
+                            If you are planning to travel to Dubai from Nigeria, getting a visa is important-just like for
+                            other countries. The next thing that should come to your mind is how to apply for Dubai visa...
+                        </p>
+                        <a href="https://bit.ly/45Pehpy" class="readmorestyling">Read more</a>
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div id="mycontact">
+                <div class="Contactme" data-aos="fade-up-right">
+                    <h2 style="color: white; text-align: center;">Contact Me</h2>
+
+                    <form action="https://formsubmit.co/lawben50@gmail.com" method="POST">
+
+                        <input type="text" placeholder="First name" class="forminput1"> <input type="text" placeholder="Last name" class="forminput"> <br> <br>
+                        <input type="email" placeholder="Email address" class="forminput"> <br> <br>
+                        <input type="text" placeholder="Subject" class="forminput"> <br> <br>
+                        <textarea name="subject" id="subject" placeholder="Write something here" cols="50" rows="5" style="border-radius: 5px;"></textarea> <br> <br>
+
+                        <button class="sub-btn">Submit</button>
+                    </form>
+                </div>
+
+                <div class="media-links" data-aos="fade-up-left">
+                    <h2 style="color: white; padding-bottom: 20px;"></h2>
+
+                    <li><a href="https://facebook.com/lawal.bernald"> <img src="/Facebook logo.png" class="sm-logo" alt=""></a></li>
+                    <li><a href="https://linkedin.com/in/oluwaseun-lawal-345a67183"> <img src="/LinkedIn logo.png" class="sm-logo" alt=""></a></li>
+                    <li><a href="https://twitter.com/Distinct_Ben01"> <img src="/Twitter logo.png" class="sm-logo" alt=""></a></li>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    <footer>
+
+        <p>Copyright &copy; 2023, Oluwaseun Lawal</p>
+
+        <p>All rights reserved.</p>
+
+    </footer>
+
+
+
+    
+
+
+    <script src="/aos@latestMod.js"></script>
+
+    <script src="/scripts.js"></script>
+
+    <script src="/js/bootstrap.bundle.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    
+
+    <script>
+        var typingEffect = new Typed(".multiText",
+        {
+            strings : ["an Entry-level Frontend Developer", "a Technical Writer", "a Content Writer"],
+            loop : true,
+            typeSpeed : 150,
+            backSpeed : 120,
+            backDelay : 1700
+        })
+    </script>
+
+</body>
+</html>
