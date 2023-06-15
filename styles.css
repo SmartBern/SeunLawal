@@ -18,7 +18,7 @@ nav
 {
     transition: 0.5s ease-in;
     background: linear-gradient(to left, #43d136, #d3671f);
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .navbar-brand
@@ -51,9 +51,17 @@ nav
 
 .navbar-toggler
 {
-    background-color: rgb(235, 226, 226);
+    color: white;
     transition: 0.5s;
+    border: 1px;
 }
+
+.navbar-toggler:hover
+{
+    background: none;
+    border: 1px;
+}
+
 
 .marquee
 {
