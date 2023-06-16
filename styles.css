@@ -2,11 +2,20 @@
     
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    
-  
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
+@font-face
+{
+    font-family: myWebFont;
+    src: url(LobsterTwo-Bold.ttf);
+}
+
+@font-face
+{
+    font-family: headingsFont;
+    src: url(Merienda-VariableFont_wght.ttf);
+}
 
 body
 {
@@ -27,6 +36,7 @@ nav
     --fmax: 26;
     --fmin: 18;
     font-size: min(max(var(--fmax)/1280 * 100vw, var(--fmin) * 1px), var(--fmax) * 1px);
+    font-family: myWebFont;
 }
 
 .navbar-brand:hover
@@ -51,6 +61,7 @@ nav
 
 .navbar-toggler
 {
+    /* background-color: rgb(235, 226, 226); */
     color: white;
     transition: 0.5s;
     border: 1px;
@@ -143,12 +154,14 @@ h1
 {
     
     font-size: clamp(2.2rem, -0.875rem + 8.333vw, 3.3rem);
+    font-family: myWebFont;
     font-weight: 900;
     color: rgb(199, 89, 15);
 }
 
 .multiText
 {
+    font-family: myWebFont;
     color: deepskyblue;
 }
 
@@ -171,7 +184,7 @@ h1
     padding: 8px 14px;
     letter-spacing: 2px;
     text-transform: capitalize;
-    box-shadow: 0 10px 10px rgb(171, 211, 26);
+    box-shadow: 0 5px 10px rgb(171, 211, 26);
     border-radius: 10px;
     margin-bottom: 50px;
 }
@@ -237,6 +250,7 @@ button:hover
     display: flex;
     margin: auto;
     text-align: center;
+    font-family: headingsFont;
     font-size: 35px;
     font-weight: bolder;
     line-height: 56px;
@@ -356,6 +370,7 @@ button:hover
     margin: auto;
     text-align: center;
     margin-top: 100px;
+    font-family: headingsFont;
     font-size: 35px;
     font-weight: bolder;
     line-height: 56px;
@@ -389,6 +404,7 @@ button:hover
 
 .skill-name
 {
+    font-family:'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 300;
     text-align: center;
@@ -490,6 +506,7 @@ button:hover
     margin: auto;
     text-align: center;
     margin-top: 100px;
+    font-family: headingsFont;
     font-size: 35px;
     font-weight: bolder;
     line-height: 56px;
@@ -509,6 +526,7 @@ button:hover
 
 .skill_name
 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 300;
     color: white;
@@ -540,6 +558,7 @@ button:hover
     margin: auto;
     text-align: center;
     margin-top: 100px;
+    font-family: headingsFont;
     font-size: 35px;
     font-weight: bolder;
     line-height: 56px;
@@ -678,6 +697,7 @@ button:hover
     margin: auto;
     text-align: center;
     margin-top: 100px;
+    font-family: headingsFont;
     font-size: 35px;
     font-weight: bolder;
     line-height: 56px;
@@ -871,6 +891,13 @@ button:hover
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0px 5px 10px green;
+}
+
+.contactme-heading
+{
+    color: white; 
+    text-align: center;
+    font-family: headingsFont;
 }
 
 .forminput1
