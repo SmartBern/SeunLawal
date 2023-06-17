@@ -57,7 +57,7 @@ document.addEventListener('aos:out:sk',()=>{
       sk2.style.background= "conic-gradient(#1faaef,"+(skills.s2*3.5)+"deg, #ededed 0deg)";
       sk3.style.background= "conic-gradient(#720AC7,"+(skills.s3*3.6)+"deg, #ededed 0deg)";
       sk4.style.background= "conic-gradient(#fad000,"+(skills.s4*3.6)+"deg, #ededed 0deg)";
-      sk5.style.background= "conic-gradient(#144bb8,"+(skills.s5*3.6)+"deg, #ededed 0deg)";
+      sk5.style.background= "conic-gradient(#3ab8b8,"+(skills.s5*3.6)+"deg, #ededed 0deg)";
       sk6.style.background= "conic-gradient(#144bb8,"+(skills.s6*3.6)+"deg, #ededed 0deg)";     
     }
   })

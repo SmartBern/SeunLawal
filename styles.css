@@ -948,7 +948,13 @@ button:hover
 .media-links li:nth-child(1), .media-links li:nth-child(3)
 {
     padding-left: 50px;
-} 
+}
+
+.fb-logo
+{
+    height: 65px;
+    width: 65px;
+}
 
 .sm-logo
 {
@@ -1007,6 +1013,12 @@ button:hover
         width: 100%;
     }
 
+    textarea
+    {
+        border-radius: 5px;
+        background-color: #3ab8b8;
+    }
+
     .media-links
     {
         display: flex;
@@ -1028,6 +1040,12 @@ button:hover
     .media-links li:nth-child(1), .media-links li:nth-child(3)
     {
         padding-left: 0px;
+    }
+
+    .fb-logo
+    {
+        height: 53px;
+        width: 53px;
     }
     
     .sm-logo
