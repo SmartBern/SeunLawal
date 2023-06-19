@@ -910,6 +910,11 @@ button:hover
     width: 100%;
 }
 
+textarea
+{
+    border-radius: 5px;
+}
+
 .sub-btn
 {
     border-radius: 5px;
@@ -1004,7 +1009,7 @@ button:hover
 
     textarea
     {
-        border-radius: 10px;
+        border-radius: 5px;
     }
 
     .media-links
