@@ -26,7 +26,7 @@ body
 nav
 {
     transition: 0.5s ease-in;
-    background: linear-gradient(to left, #43d136, #d3671f);
+    background: linear-gradient(to left, #79e96e, #008000);
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -137,17 +137,7 @@ nav
     position: relative;
     font-size: 30px;
     letter-spacing: 5px;
-    color: blueviolet;
-}
-
-.topline::after
-{
-    position: absolute;
-    content: '';
-    height: 4px;
-    width: 45px;
-    bottom: 10px;
-    background-color: chartreuse;
+    color: white;
 }
 
 h1
@@ -156,13 +146,13 @@ h1
     font-size: clamp(2.2rem, -0.875rem + 8.333vw, 3.3rem);
     font-family: myWebFont;
     font-weight: 900;
-    color: rgb(199, 89, 15);
+    color: #00bfff;
 }
 
 .multiText
 {
     font-family: myWebFont;
-    color: deepskyblue;
+    color: #00bfff;
 }
 
 .cv-container
@@ -184,7 +174,7 @@ h1
     padding: 8px 14px;
     letter-spacing: 2px;
     text-transform: capitalize;
-    box-shadow: 0 5px 10px rgb(171, 211, 26);
+    box-shadow: 0 5px 10px #79e96e;
     border-radius: 10px;
     margin-bottom: 50px;
 }
@@ -212,7 +202,7 @@ button:hover
     .multiText
     {
         width: 300px;
-        color: deepskyblue;
+        /* color: deepskyblue; */
     }
 
     .cv-container
@@ -261,7 +251,7 @@ button:hover
 {
     width: 56px;
     height: 2px;
-    border-bottom: 2px rgb(178, 250, 178) groove;
+    border-bottom: 2px #79e96e groove;
     display: flex;
     margin: auto;
     margin-bottom: 50px;
@@ -286,7 +276,7 @@ button:hover
 
 .aboutmetext
 {
-    background-color: #43d136;
+    background-color: #79e96e;
     height: fit-content;
     width: fit-content;
     border-radius: 10px;
@@ -307,7 +297,7 @@ button:hover
 
 .description
 {
-    border-left: solid 10px rgb(255, 145, 0);
+    border-left: solid 10px #00bfff;
     padding: 5px;
     border-radius: 7px;
     border-style: groove;
@@ -519,7 +509,6 @@ button:hover
     --gap: 20px;
     gap: var(--gap);
     grid-template-columns: repeat(auto-fit, minmax(clamp(50% - var(--gap),(35rem - 100%) * 999, 100%), 1fr));
-    /* grid-template-columns: repeat(3, 1fr); */
     color: blanchedalmond;
 }
 
@@ -581,7 +570,7 @@ button:hover
     height: 350px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px chartreuse;
+    box-shadow: 2px 2px 10px #79e96e;
 }
 
 .service2
@@ -591,7 +580,7 @@ button:hover
     height: 350px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px chartreuse;
+    box-shadow: 2px 2px 10px #79e96e;
 }
 
 .service3
@@ -601,7 +590,7 @@ button:hover
     height: 350px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px chartreuse;
+    box-shadow: 2px 2px 10px c#79e96e;
 }
 
 .service4
@@ -611,7 +600,7 @@ button:hover
     height: 350px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px chartreuse;
+    box-shadow: 2px 2px 10px #79e96e;
 }
 
 .serviceimg
@@ -715,7 +704,7 @@ button:hover
 {
     width: 56px;
     height: 2px;
-    border-bottom: 2px rgb(178, 250, 178) groove;
+    border-bottom: 2px #79e96e groove;
     display: flex;
     margin-bottom: 20px;
 }
@@ -723,7 +712,7 @@ button:hover
 .webdev-portfolio
 {
     height: fit-content;
-    background: rgb(212, 125, 151);
+    background: rgb(154, 104, 119);
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -806,7 +795,7 @@ button:hover
     padding: 5px; 
     margin: 5px; 
     border: 1px groove;
-    background-color: dodgerblue;
+    background-color: #00bfff;
     color: white; 
     border-radius: 10px; 
     text-decoration: none;
@@ -814,7 +803,7 @@ button:hover
 
 .read-more-styling:hover
 {
-    background-color: #43d136;
+    background-color: blue;
     color: white;
 }
 
@@ -858,7 +847,7 @@ button:hover
     padding: 5px; 
     margin: 3px; 
     border: 1px groove;
-    background-color: rgb(9, 127, 245);
+    background-color: #00bfff;
     color: white;  
     border-radius: 10px; 
     text-decoration: none;
@@ -866,7 +855,7 @@ button:hover
 
 .readmorestyling:hover
 {
-    background-color: #43d136;
+    background-color: blue;
     color: white;
 }
 
@@ -890,7 +879,7 @@ button:hover
     width: 50%;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px green;
+    box-shadow: 0px 5px 10px #79e96e;
 }
 
 .contactme-heading
@@ -904,7 +893,7 @@ button:hover
 {
     width: 49%;
     border-radius: 5px;
-    border-color: #e67327;
+    border-color: #00bfff;
     border-style: groove;
 }
 
@@ -912,7 +901,7 @@ button:hover
 {
     width: 49%;
     border-radius: 5px;
-    border-color: #e67327;
+    border-color: #00bfff;
     border-style: groove;
 }
 
@@ -924,7 +913,7 @@ button:hover
 .sub-btn
 {
     border-radius: 5px;
-    background-color: blue;
+    background: linear-gradient(to left,#0000ff, #79e96e);
     color: white;
     border: none;
 }
@@ -998,7 +987,7 @@ button:hover
     .forminput1
     {
         width: 100%;
-        border-color: #e67327;
+        border-color: #00bfff;
         border-style: groove;
         margin-bottom: 23px;
     }
@@ -1016,7 +1005,6 @@ button:hover
     textarea
     {
         border-radius: 5px;
-        background-color: #3ab8b8;
     }
 
     .media-links
@@ -1060,7 +1048,7 @@ footer
 {
     height: 70px;
     width: 100%;
-    background-color: #e67327;
+    background: linear-gradient(to left, #79e96e, #008000);
     margin-top: 50px;
     text-align: center;
     padding: 5px;
