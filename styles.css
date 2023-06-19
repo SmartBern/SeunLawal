@@ -795,7 +795,7 @@ button:hover
     padding: 5px; 
     margin: 5px; 
     border: 1px groove;
-    background-color: #00bfff;
+    background-color: #1aabdc;
     color: white; 
     border-radius: 10px; 
     text-decoration: none;
@@ -847,7 +847,7 @@ button:hover
     padding: 5px; 
     margin: 3px; 
     border: 1px groove;
-    background-color: #00bfff;
+    background-color: #1aabdc;
     color: white;  
     border-radius: 10px; 
     text-decoration: none;
@@ -1004,7 +1004,7 @@ button:hover
 
     textarea
     {
-        border-radius: 5px;
+        border-radius: 10px;
     }
 
     .media-links
