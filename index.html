@@ -15,12 +15,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&family=Mynerve&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/f6656a3e43.js" crossorigin="anonymous"></script>
 
     <script src="anime.min.js"></script>
+
+    <script async src="https://api.countapi.xyz/hit/seun-lawal.vercel.app/visits?callback=webpageViews"></script>
 
     <link rel="stylesheet" href="/aos@latest.css">
 
@@ -56,9 +60,6 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link" href="#aboutme">About Me</a>
                   </li>
 
@@ -90,7 +91,7 @@
         
         <div class="overall-container">
 
-            <marquee behavior="scroll" direction="left" class="marquee">Welcome to my website. My name is Oluwaseun. It's nice having you here.</marquee>
+            <marquee behavior="scroll" direction="left" class="marquee">Welcome to my portfolio website. My name is Oluwaseun. It's nice having you here.</marquee>
 
             <img src="/20230316_094855_0000.png" class="hero-image" data-aos="fade-up-right" alt="">
 
@@ -102,7 +103,8 @@
           </div>
 
           <div class="cv-container">
-            <button class="cvbtn">View my CV</button>
+            <a href="#"><button class="cvbtn">View my CV</button></a>
+            
           </div>
 
             <h4 id="aboutme">About Me</h4>
@@ -112,13 +114,17 @@
 
             <section class="myDetails">
 
-                <img src="/20230402_125603.jpg" alt="" data-aos="fade-right" class="mypix">
+                <!-- <img src="/20230402_125603.jpg" alt="" data-aos="fade-right" class="mypix"> -->
+
+                <div class="block glow">
+
+                </div>
                 
                 <div class="aboutmetext">
                     <article class="article">
                         <p class="description" data-aos="fade-up-right">
                             My name is Oluwaseun Lawal and I am an <b>entry-level frontend developer</b> with less than a year experience. 
-                            I developed this website with my knowledge of HTML, CSS, Bootstrap, and JavaScript. While still trying to be grounded 
+                            I developed this portfolio website with my knowledge of HTML, CSS, Bootstrap, and JavaScript. While still trying to be grounded 
                             in JavaScript, I've taken up ReactJS. Also, I am working on some other web projects which I plan continuing and finishing
                             with ReactJS. I will be adding these web projects to my portfolio as soon as I'm done with them. 
                         </p>
@@ -299,7 +305,6 @@
                             <ul class="ulitem1">
                                 <li>Web Content Writing</li>
                                 <li>Blog Writing</li>
-                                <li>SEO</li>
                             </ul>
                         </div>
                 
@@ -428,9 +433,9 @@
 
             <div id="mycontact">
                 <div class="Contactme" data-aos="fade-up-right">
-                    <h2 class="contactme-heading">Contact Me</h2>
+                    <h2 class="contactme-heading">Contact Me</h2> 
 
-                    <form action="https://formsubmit.co/el/harive" method="POST">
+                    <form action="https://formspree.io/f/mbjvjlbg" method="POST">
 
                         <input type="text" placeholder="First name" class="forminput1" required> <input type="text" placeholder="Last name" class="forminput" required> <br> <br>
                         <input type="email" placeholder="Email address" class="forminput" required> <br> <br>
@@ -459,6 +464,8 @@
         <p>Copyright &copy; 2023, Oluwaseun Lawal</p>
 
         <p>All rights reserved.</p>
+
+        <h6>Hits: <span id="visits"></span> views</h6>
 
     </footer>
 

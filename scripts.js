@@ -1,6 +1,11 @@
 let circularProgress = document.querySelector('.circular-progress');
 let progressValue = document.querySelector('.progress-value');
 
+function webpageViews(response) 
+{
+  document.getElementById('visits').innerText = response.value;
+}
+
 function $sel(el) {
   return document.querySelector(el);
 }
