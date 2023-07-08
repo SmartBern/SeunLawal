@@ -1117,24 +1117,23 @@ footer
     border-radius: 5px 5px 0px 0px;
 }
 
-.count-container
-{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-}
-
-.website-counter
-{
-    background-color: #e8862a;
-    height: 22px;
-    width: 50px;
-    color: white;
-    border-radius: 30px;
-    font-weight: 600;
-    font-size: 16px;
-    /* margin-top: 10px; */
-}
+/* .count-container */
+/* { */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* gap: 5px; */
+/* } */
+/*  */
+/* .website-counter */
+/* { */
+    /* background-color: #e8862a; */
+    /* height: 22px; */
+    /* width: 50px; */
+    /* color: white; */
+    /* border-radius: 30px; */
+    /* font-weight: 600; */
+    /* font-size: 16px; */
+/* } */
 
 @media (max-width: 576px)
 {
