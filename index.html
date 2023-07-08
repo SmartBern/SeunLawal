@@ -102,10 +102,10 @@
                 </div>
           </div>
 
-          <div class="cv-container">
-            <a href="#"><button class="cvbtn">View my CV</button></a>
-            
-          </div>
+          <!-- <div class="cv-container"> -->
+            <!-- <a href="#"><button class="cvbtn">View my CV</button></a> -->
+<!--              -->
+          <!-- </div> -->
 
             <h4 id="aboutme">About Me</h4>
             <div class="line-under"></div>
@@ -125,13 +125,12 @@
                         <p class="description" data-aos="fade-up-right">
                             My name is Oluwaseun Lawal and I am an <b>entry-level frontend developer</b> with less than a year experience. 
                             I developed this portfolio website with my knowledge of HTML, CSS, Bootstrap, and JavaScript. While still trying to be grounded 
-                            in JavaScript, I've taken up ReactJS. Also, I am working on some other web projects which I plan continuing and finishing
-                            with ReactJS. I will be adding these web projects to my portfolio as soon as I'm done with them. 
+                            in JavaScript, I've taken up ReactJS. I am busy working on some other web projects which I'll be adding to my portfolio as soon as I'm done with them. 
                         </p>
                         <p class="description" data-aos="fade-up-right">
                             I am also a <b>self-motivated technical writer</b> with one year experience - though I initially started out as a technical
                             content writer. I have written and can write technical reports, technical documentation, maintenance manuals, and user guides. 
-                            I have published two of my technical articles on dev.to (a large online community of web developers and software developers).
+                            I have published two of my technical articles on dev.to (a large online community for software developers).
                         </p>
                         <p class="description" data-aos="fade-up-right">
                             Last but not the least, I am a <b>service-focused content writer</b> with 3+ years of experience, 
@@ -437,17 +436,17 @@
 
                     <form action="https://formspree.io/f/mbjvjlbg" method="POST">
 
-                        <input type="text" placeholder="First name" class="forminput1" required> <input type="text" placeholder="Last name" class="forminput" required> <br> <br>
-                        <input type="email" placeholder="Email address" class="forminput" required> <br> <br>
+                        <input type="text" name="name" placeholder="First name" class="forminput1" required> <input type="text" placeholder="Last name" class="forminput" required> <br> <br>
+                        <input type="email" name="email" placeholder="Email address" class="forminput" required> <br> <br>
                         <input type="text" placeholder="Subject" class="forminput" required> <br> <br>
-                        <textarea id="subject" placeholder="Write something here" cols="50" rows="5" required></textarea> <br> <br>
+                        <textarea name="message" id="subject" placeholder="Write something here" cols="50" rows="2" required></textarea> <br> <br>
 
                         <button class="sub-btn" type="submit">Submit</button>
                     </form>
                 </div>
 
                 <div class="media-links" data-aos="fade-up-left">
-                    <h2 style="color: white; padding-bottom: 20px;"></h2>
+                    <!-- <h2 style="color: white; padding-bottom: 20px;"></h2> -->
 
                     <li><a href="https://facebook.com/lawal.bernald"> <img src="/Facebook logo.png" class="fb-logo" alt=""></a></li>
                     <li><a href="https://linkedin.com/in/oluwaseun-lawal-345a67183"> <img src="/LinkedIn logo.png" class="sm-logo" alt=""></a></li>
@@ -465,13 +464,16 @@
 
         <p>All rights reserved.</p>
 
-        <!-- <h6>Hit: <span id="visits"></span> views</h6> -->
+        <div class="count-container">
+            <div>Visit counts:</div>
+            <div class="website-counter"></div>
+        </div>
+        <!-- <button id="reset">Reset</button> -->
 
+        
     </footer>
 
 
-
-    
 
 
     <script src="/aos@latestMod.js"></script>
