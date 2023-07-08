@@ -4,7 +4,6 @@ let progressValue = document.querySelector('.progress-value');
 // var counterContainer = document.querySelector('.website-counter');
 // var visitCount = localStorage.getItem("page_view");
 // 
-Check if page_view entry is present
 // 
 // if (visitCount)
 // {
