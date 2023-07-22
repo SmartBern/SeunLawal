@@ -18,14 +18,14 @@
 
 body
 {
-    background-image: url(/pexels-jakub-novacek-924824.jpg);
-
+    background-image: url(/White-background-with-wavy-lines.jpg);
+    border-radius: 15px;
 }
 
 nav
 {
     transition: 0.5s ease-in;
-    background: linear-gradient(to left, #008000, #79e96e, #008000);
+    background: linear-gradient(to right, #008000, #ffb300);
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -72,6 +72,21 @@ nav
     border: 1px;
 }
 
+
+
+.overall-container
+{
+    overflow: hidden;
+}
+
+header
+{
+    width: 100%;
+    background-image: url(/Dark\ background\ with\ glow\ ball.jpg);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
 .marquee
 {
     margin-top: 100px;
@@ -80,27 +95,20 @@ nav
     color: whitesmoke;
 }
 
-
-.overall-container
-{
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-}
-
 @media (max-width: 576px)
 {
-    .overall-container
+    header
     {
-        width: 95%;
+        margin: auto;
+        
     }
 }
 
 @media (max-width: 768px)
 {
-    .overall-container
+    header
     {
-        width: 95%;
+        margin: auto;
     }
 }
 
@@ -110,7 +118,7 @@ nav
     margin: auto;
     max-width: 100%;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .wrapper
@@ -222,6 +230,14 @@ button:hover
     }
 }
 
+@media (max-width: 820px)
+{
+    .hero-image
+    {
+        max-width: 95%;
+    }
+}
+
 @media (min-width: 1024px)
 {
     .wrapper
@@ -240,7 +256,7 @@ button:hover
 {
     height: fit-content;
     width: fit-content;
-    color: white;
+    color: rgb(10, 11, 80);
     display: flex;
     margin: auto;
     text-align: center;
@@ -264,7 +280,7 @@ button:hover
 .myDetails
 {
     height: fit-content;
-    width: 95%;
+    width: 85%;
     margin: auto;
     margin-top: 20px;
     display: flex;
@@ -398,10 +414,16 @@ button:hover
     }
 }
 
+.MySkills
+{
+    background-image: url(/pexels-jakub-novacek-924824.jpg);
+    border-radius: 15px;
+    /* background: linear-gradient(to left, rgb(22, 7, 103),green, black); */
+}
 
 #skills-section
 {
-    width: 95%;
+    width: 90%;
     position: relative;
     margin: auto;
     margin-top: 185px;
@@ -598,7 +620,7 @@ button:hover
 {
     height: fit-content;
     width: fit-content;
-    color: white;
+    color: rgb(10, 11, 80);
     display: flex;
     margin: auto;
     text-align: center;
@@ -611,7 +633,7 @@ button:hover
 
 .service-container
 {
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -729,8 +751,10 @@ button:hover
 {
     margin-top: 200px;
     margin-bottom: 100px;
-    width: 95%;
+    width: 100%;
     margin: auto;
+    background-image: url(/Dark\ background\ with\ glow\ ball.jpg);
+    border-radius: 15px;
 }
     
 .portfolio-heading
@@ -754,6 +778,7 @@ button:hover
     font-size: 22px;
     font-weight: bold;
     color: white;
+    padding-left: 20px;
 }
 
 .line-under-eachportfolio
@@ -763,12 +788,15 @@ button:hover
     border-bottom: 2px #79e96e groove;
     display: flex;
     margin-bottom: 20px;
+    margin-left: 25px;
 }
 
 .webdev-portfolio
 {
+    width: 85%;
+    margin: auto;
     height: fit-content;
-    background: rgb(154, 104, 119);
+    background: gray;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -797,7 +825,7 @@ button:hover
 .adding-webprojects
 {
     text-align: center;
-    color: rgb(218, 180, 180);
+    color: white;
     animation: myAnimation 3s ease-in-out 1s infinite alternate-reverse both;
 }
 
@@ -821,6 +849,8 @@ button:hover
 
 .techwriting-portfolio
 {
+    width: 85%;
+    margin: auto;
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -850,8 +880,7 @@ button:hover
 {
     padding: 5px; 
     margin: 5px; 
-    border: 1px groove;
-    background-color: #1aabdc;
+    background-color: #ffb300;
     color: white; 
     border-radius: 10px; 
     text-decoration: none;
@@ -864,9 +893,10 @@ button:hover
 }
 
 
-
 .contentwriting-portfolio
 {
+    width: 85%;
+    margin: auto;
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(max(33.3333% - 20px, min(250px, 100%)), 1fr));
@@ -880,7 +910,7 @@ button:hover
 {
     height: fit-content;
     width: fit-content;
-    background-color: rgb(214, 212, 212);
+    background-color: #d6d4d4;
     border-radius: 5px;
     padding: 10px;
 }
@@ -902,8 +932,7 @@ button:hover
 {
     padding: 5px; 
     margin: 3px; 
-    border: 1px groove;
-    background-color: #1aabdc;
+    background-color: #ffb300;
     color: white;  
     border-radius: 10px; 
     text-decoration: none;
@@ -918,12 +947,13 @@ button:hover
 
 #mycontact
 {
-    width: 90%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     height: fit-content;
     margin-top: 100px;
+    border-radius: 15px;
 }
 
 
@@ -933,13 +963,14 @@ button:hover
     height: fit-content;
     width: 50%;
     padding: 10px;
+    border: 2px solid #00bfff;
     border-radius: 5px;
-    box-shadow: 0px 5px 10px #79e96e;
+    background-color: #d6d4d4;
 }
 
 .contactme-heading
 {
-    color: white; 
+    color: rgb(10, 11, 80); 
     text-align: center;
     font-family: headingsFont;
 }
@@ -950,6 +981,7 @@ button:hover
     border-radius: 5px;
     border-color: #00bfff;
     border-style: groove;
+    box-shadow: 0px 10px 10px #8787f0;
 }
 
 .forminput
@@ -958,6 +990,7 @@ button:hover
     border-radius: 5px;
     border-color: #00bfff;
     border-style: groove;
+    box-shadow: 0px 10px 10px #8787f0;
 }
 
 #subject
@@ -968,14 +1001,20 @@ button:hover
 textarea
 {
     border-radius: 5px;
+    box-shadow: 0px 10px 10px #8787f0;
 }
 
 .sub-btn
 {
     border-radius: 5px;
-    background: linear-gradient(to left,#0000ff, #79e96e);
+    background-color: #ffb300;
     color: white;
     border: none;
+}
+
+.sub-btn:hover
+{
+    box-shadow: 5px 3px #79e96e;
 }
 
 .media-links li
@@ -1048,7 +1087,6 @@ textarea
     .forminput1
     {
         width: 100%;
-        border-color: #00bfff;
         border-style: groove;
         margin-bottom: 23px;
     }
@@ -1056,6 +1094,7 @@ textarea
     .forminput
     {
         width: 100%;
+        
     }
 
     #subject
@@ -1107,33 +1146,15 @@ textarea
 
 footer
 {
-    height: 70px;
+    height: 65px;
     width: 100%;
-    background-color: #008000;
+    background-image: url(/pexels-jakub-novacek-924824.jpg);
     margin-top: 50px;
     text-align: center;
     padding: 0px;
     color: white;  
     border-radius: 5px 5px 0px 0px;
 }
-
-/* .count-container */
-/* { */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* gap: 5px; */
-/* } */
-/*  */
-/* .website-counter */
-/* { */
-    /* background-color: #e8862a; */
-    /* height: 22px; */
-    /* width: 50px; */
-    /* color: white; */
-    /* border-radius: 30px; */
-    /* font-weight: 600; */
-    /* font-size: 16px; */
-/* } */
 
 @media (max-width: 576px)
 {
