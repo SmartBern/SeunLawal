@@ -1,28 +1,9 @@
 let circularProgress = document.querySelector('.circular-progress');
 let progressValue = document.querySelector('.progress-value');
 
-// var counterContainer = document.querySelector('.website-counter');
-// var visitCount = localStorage.getItem("page_view");
-// 
-// 
-// if (visitCount)
-// {
-  // visitCount = Number(visitCount) + 1;
-// }
-// 
-// else
-// {
-  // visitCount = 1;
-  // localStorage.setItem("page_view", 1);
-// }
-// 
-// counterContainer.innerHTML = visitCount;
-// 
-// 
-// function webpageViews(response) 
-// {
-  // document.getElementById('visits').innerText = response.value;
-// }
+var counterContainer = document.querySelector('.website-counter');
+var visitCount = localStorage.getItem("page_view");
+
 
 
 
@@ -68,9 +49,9 @@ document.addEventListener('aos:out:sk',()=>{
     targets: skills,
     s1: 87,
     s2: 85,
-    s3: 65,
-    s4: 35,
-    s5: 15,
+    s3: 75,
+    s4: 40,
+    s5: 40,
     s6: 40,
     round: 1,
     delay: 500,
