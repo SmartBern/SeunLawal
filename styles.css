@@ -202,23 +202,6 @@ h1
 }
 
 
-/* .cvbtn */
-/* { */
-    /* outline: none; */
-    /* border: none; */
-    /* cursor: pointer; */
-    /* font-size: 25px; */
-    /* font-weight: 400; */
-    /* color: white; */
-    /* background-color: rgb(112, 112, 150); */
-    /* padding: 8px 14px; */
-    /* letter-spacing: 2px; */
-    /* text-transform: capitalize; */
-    /* box-shadow: 0 5px 10px #79e96e; */
-    /* border-radius: 10px; */
-    /* margin-bottom: 50px; */
-/* } */
-
 button:hover
 {
     background-color: rgb(27, 30, 204);
